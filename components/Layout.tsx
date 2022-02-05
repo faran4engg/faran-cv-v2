@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Layout: FC = ({ children }) => {
   return (
-    <div className="h-screen overflow-y-auto text-xs text-gray-300 bg-zinc-900 md:text-base lg:text-lg xl:text-xl ">
+    <div className="h-screen overflow-y-auto text-xs text-dark-mode-text bg-dark-bg-2 md:text-base lg:text-lg xl:text-xl ">
       <Header />
       <div className="container">
         {children}
