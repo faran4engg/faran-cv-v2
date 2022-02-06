@@ -5,7 +5,9 @@ import Layout from "../components/Layout";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout>
-      <Component {...pageProps} />
+      <div className="container mx-auto">
+        <Component {...pageProps} />
+      </div>
     </Layout>
   );
 }
