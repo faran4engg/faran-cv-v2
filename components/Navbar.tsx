@@ -30,9 +30,9 @@ const Navbar = () => {
     console.log(str);
   };
   return (
-    <div className="absolute flex justify-center w-full mx-auto bottom-4">
-      <div className="px-2 shadow-lg bg-dark-bg-1 rounded-2xl">
-        <div className="flex gap-0">
+    <div className="fixed flex justify-center w-full mx-auto bottom-4 ">
+      <div className="px-2 shadow-lg bg-dark-bg-1 rounded-2xl backdrop-blur">
+        <div className="flex gap-0 ">
           {[1, 2, 3, 4].map((item) => (
             <motion.div
               initial={{ opacity: 0 }}
