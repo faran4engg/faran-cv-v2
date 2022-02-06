@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Profile from "../assets/icons/profile.svg";
+import Home from "../assets/icons/home.svg";
 
 const Navbar = () => {
   const arr = [
@@ -37,14 +37,14 @@ const Navbar = () => {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              whileHover={{ scale: 2, y: -10 }}
-              whileTap={{ scale: 2, y: -10 }}
+              whileHover={{ scale: 1.4, y: -15 }}
+              whileTap={{ scale: 1.4, y: -15 }}
               key={item}
               className="flex-1 group"
             >
               <a className="flex items-end justify-center w-full px-2 pt-2 mx-auto text-center hover:text-theme-color">
                 <span className="block px-1 pt-1 pb-1">
-                  <Image src={Profile} height={30} width={30} alt="test" />
+                  <Image src={Home} height={30} width={30} alt="test" />
                   {/* <span className="block pb-1 "> {item}</span> */}
                   {/* <span className="block w-5 h-1 mx-auto rounded-full group-hover:bg-theme-color-hover"></span> */}
                 </span>

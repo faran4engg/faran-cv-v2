@@ -9,8 +9,8 @@ module.exports = {
         "theme-color": "#818cf8",
         "theme-color-hover": "#a5b4fc",
 
-        "dark-bg-1": "#252830",
-        "dark-bg-2": "#141416",
+        "dark-bg-1": "#343942",
+        "dark-bg-2": "#202225",
 
         "dark-mode-text": "#eff8fe",
       },
